@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{border:2px solid gray;
+        padding:5px}
+        label{display: block;}
+        form{width: 400px;
+            margin: auto;
+            background-color:rgb(156, 197, 115);
+            border-radius: 10px;
+        }
+        h3{text-align: center;}
+    </style>
+</head>
+<body>
+
+    <main>
+<form action="">
+<h3> Every Kind of Form Element</h3>
+<hr>
+<b>User name</b>
+<label for="name">
+    <input type="text" placeholder="User name">  <small> value is required.</small>
+        
+</label><hr>
+<b>Password</b>
+<label for="password">
+    <input type="password" placeholder="Your password">
+</label><hr>
+<label for="description"><b>Description </b><br>
+<textarea name="description" id="" cols="20" rows="5" placeholder="Write about you"></textarea>
+</label>
+<fieldset> <legend><b>Pick any from bellow</b></legend>
+    <label for="checkbox">
+    <input type="checkbox" name="choice" id="1"> Kacchi </label>
+    <label for="checkbox">
+    <input type="checkbox" name="choice" id="2"> Burger</label>
+    <label for="checkbox">
+    <input type="checkbox" name="choice" id="3"> Pizza</label>
+</fieldset>
+</label> <hr>
+<b>Pick One</b>
+<label for="">
+    <input type="radio" name="veg" id="1">Alu</input>
+    <input type="radio" name="veg" id="2">Darosh</input>
+    <input type="radio" name="veg" id="3">Korola</input>
+</label> <hr>
+<b>Need a Drink?</b>
+<label for="">
+<select name="Choose one" id="choose one">
+    <option value="Select one">Select one</option>
+    <option value="">chips</option>
+    <option value="">coke</option>
+    <option value="">Ice cream</option>
+</select>
+</label><hr>
+
+        
+    
+<div style="text-align: right;">
+    <button type="submit" style="color:black;background-color: tomato;border-radius: 5px;">Submit the Form</button></div>
+</form>
+</main>
+    
+</body>
+</html>
